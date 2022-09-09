@@ -11,6 +11,6 @@ app.get('/health', (req, res) => {
   return res.status(200).send('OK');
 });
 
-app.listen(3031, () => {
-  console.log('listening on 3031');
+app.listen(3000, () => {
+  console.log('listening on 3000');
 });
